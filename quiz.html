@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>This is a test</title>
+	</head>
+	<body>
+	<!-- Image test: not working-->
+	<A HREF="http://www.grass.com"><img src="grass.jpg" alt="grass not working" width="30" height="30"></A>
+	<p><strong><em>another test</em></strong></p>
+	</body>
+	
+	<!--Trivia: Curtis Dicken = CD -->
+	<p>
+        <br />
+        Asking question <span id="NumberAsked">1</span> of 8 with <span id="NumberCorrect">0</span> answers correct
+	</p>
+    <p>
+        <span id="Question">???</span>
+    </p>
+    <form>
+    	<!--user inputs answer-->
+    	Answer:<br>
+    	<input id="theAnswer"; type="text" name="myAnswer">
+    </form>
+
+    <p>
+		<!-- True and False Buttons/Functionality
+		&nbsp;
+		<input id="RadioTrue" type="radio" value="true" name="answer" checked="checked" /> True
+		&nbsp;&nbsp;&nbsp;
+		<input id="RadioFalse" type="radio" value="false" name="answer" /> False
+    </p>-->
+    <p>
+        <!--<input id="ButtonContinue" onclick="checkAnswer();" type="button" value="Next question" />-->
+    </p>
+    <!--Start JS-->
+    <script language="javascript" type="text/javascript">
+        // Array of trivia data(CD)
+        var Braintest = new Array(8)
+        createTwoDimensionalArray(3);
+ 
+        // Variables to track state of the game(CD)
+        var questionsAsked = 0;
+        var totalCorrect = 0;
+        var currentQuestion = 0;
+        var selectionValid = false;
+ 
+        // Questions
+        Braintest[0][0] = "Johnnys mother had three children. The first child was named April. The second child was named May. What was the third childs name?";
+        Braintest[1][0] = "(Image #2)  What is the color of word number 8?";
+        Braintest[2][0] = "What word in the English Language is always spelled incorrectly?";
+        Braintest[3][0] = "How much dirt is in a hole in the ground that is 2'x3'x4'?  Answer in cubic feet.";
+        Braintest[4][0] = "If you were running in a race, and you passed the person in second place, what place would you be in?";
+        Braintest[5][0] = "72, 58, 51, 37, 30...  What is the 7th item in this pattern?";
+        Braintest[6][0] = "(image #8)";
+        Braintest[7][0] = "Which two of the five items do not belong with the others?";
+   
+        // Answers
+        Braintest[0][1] = "Johnny";
+        Braintest[1][1] = "blue";
+        Braintest[2][1] = "incorrectly";
+        Braintest[3][1] = "none";
+        Braintest[4][1] = "second";
+        Braintest[5][1] = "9";
+        Braintest[6][1] = "GET ANSWER";
+        Braintest[7][1] = "2, 4";
+ 
+        // Has question been asked(CD)
+        // -- necessary because we are asking in random order(CD)
+        Braintest[0][2] = "no";
+        Braintest[1][2] = "no";
+        Braintest[2][2] = "no";
+        Braintest[3][2] = "no";
+        Braintest[4][2] = "no";
+        Braintest[5][2] = "no";
+        Braintest[6][2] = "no";
+        Braintest[7][2] = "no";
+ 
+        // Load up first question
+        setQuestion();
+ 
+        // Sets question text and indicator so that we know the question has been displayed(CD)
+        function setQuestion() {
+            selectionValid = false; // Flag to make sure question has not been asked yet
+            while (selectionValid == false) {
+                currentQuestion = Math.floor(Math.random() * 8); // randomly select starting question
+                if (Braintest[currentQuestion][2] == "no") {
+                    selectionValid = true;
+                }
+            }
+            document.getElementById("Question").innerHTML = Braintest[currentQuestion][0];
+            Braintest[currentQuestion][2] = "yes";
+            questionsAsked = questionsAsked + 1;
+        }
+ 
+        function processAnswer(myAnswer) {
+            if (Braintest[currentQuestion][1] == document.getElementById("theAnswer")) {
+                // answer correct
+                totalCorrect = totalCorrect + 1;
+            }
+        }
+ 
+        // This function creates our two dimensional array(CD)
+        function createTwoDimensionalArray(arraySize) {
+            for (i = 0; i < Braintest.length; ++i)
+                Braintest[i] = new Array(arraySize);
+        }
+ 
+        // This function checks the answer, updates correct total
+        // and randomly selects the next question(CD)
+        function checkAnswer() {
+            if (document.getElementById("RadioTrue").checked) {
+                processAnswer("true");
+            }
+            else {
+                processAnswer("false");
+            }
+            // get next question if not asked all yet
+            if (questionsAsked < 8) {
+                setQuestion();
+            }
+            // final question asked - disable button and show final results
+            else {
+                alert("You got " + totalCorrect + " correct out of 8.");
+                document.getElementById("ButtonContinue").disabled = true;
+            }
+            // update totals
+            document.getElementById("NumberAsked").innerHTML = questionsAsked;
+            document.getElementById("NumberCorrect").innerHTML = totalCorrect;
+        }
+ 
+    </script>
+</html>
