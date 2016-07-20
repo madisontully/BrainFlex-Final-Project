@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
   <title>BrainFlex</title>
-  <link rel="stylesheet" type="text/css" href="homepageFPCSS.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 
 
 <body>
+
 		<!--.........Navbar.............-->
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
@@ -24,6 +26,16 @@
 	  </div>
 	</nav>
 
+	<div id='container'>
+		<div id='title'>
+			<h1>BrainFlex: Critical Thinking Quiz</h1>
+		</div>
+			<br/>
+			<div id='quiz'></div>
+		<div class='button' id='next'><a href='#'>Next </a></div>
+		<div class='button' id='prev'><a href='#'>Prev</a></div>
+		<div class='button' id='start'> <a href='#'>Start Over</a></div>
+
 	
 
 	
@@ -33,6 +45,9 @@
 		<p>BrainFlex created by Sarah Guiterrez and Madison Tully:
 		 2016</p>
 	</footer>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<!-- 	<script type="text/javascript" src='questions.json'></script>   -->
+	<script type='text/javascript' src='jsquiz.js'></script>
 </body>
-<script src="requiz.js"></script>
 </html>
