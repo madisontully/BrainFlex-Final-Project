@@ -1,11 +1,47 @@
+/*html{
+	background-color: rgb(204, 204, 255);
+}
+body{
+	background-color: rgb(204, 204, 255);*/
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 100%;
+  min-height: 100%;
+} 
+#page-wrap {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
 .navbar navbar-default{
-	background-color: rgb(184, 137, 81);
+	background-color: rgb(204, 204, 230);
 }
 
 .container{
 	text-align: center;
-	background-color: rgb(184, 137, 81);
+	background-color: rgb(204, 204, 255);
 }
+
 .Sign_Log{
 	display: inline;
 }
@@ -15,7 +51,7 @@
 	float: left;
 	margin: 50px;
 	border-collapse: separate;
-	border-spacing: 100px;
+	border-spacing: 200px;
 	align: center;
 }
 
