@@ -33,6 +33,10 @@
 	background-color: rgb(204, 204, 204);
 }
 
+li{
+  margin-left: 1px;
+}
+
 .container{
 	text-align: center;
 	background-color: transparent;
