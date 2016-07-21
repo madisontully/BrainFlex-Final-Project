@@ -13,22 +13,28 @@
 
 <body>
 	<div id="bg">
-	  	<img src="images/canvastexture.jpg" alt="brain">
+	  	<img src="images/paper.jpg" alt="brain">
 	</div>
 
 		<!--.........Navbar.............-->
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">BrainFlex</a>
+	      <a class="navbar-brand" href="http://www.google.com">BrainFlex</a>
 	    </div>
 	    <ul class="nav navbar-nav navbar-right">
 	      <li class="active"><a href="#">About</a></li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle= "dropdown" href="#">Games<span class="caret"></span></a>
+	      	<ul class="dropdown-menu">
+	      		<li><a href="#">About Me Review</a></li>
+	      		<li><a href="#">Riddle Quiz</a></li>
+	      		<li><a href="#">Memory Quiz</a></li>
+	      		<li><a href="#">Analogy Quiz</a></li>
+	      	</ul>
+	      </li>
 	    </ul>
 	  </div>
 	</nav>
-
-	
 
 	
 	<div class="container">
@@ -36,12 +42,10 @@
 		<!--title at top-->
 			<div class="welcome">
 		  	<h1>Welcome to BrainFlex</h1>
-		  	<!-- <p>Welcome</p> -->
 		  	</div>
 
 			<div class="Sign_Log">
 				<!--.........SignUp Box.........-->
-				<div class="test">
 				<div class="SignUp">
 					<h1>Sign Up</h1>
 					<form method="post" action="">
@@ -52,8 +56,7 @@
 						<p class="submit"><input type="submit" name="commit" value="Sign Up"></p>
 					</form>
 				</div>	
-				</div>
-
+			
 				<!--.........Login Box.........-->
 				<div class ="login">
 					<h1>Login</h1>
@@ -62,17 +65,15 @@
 						<p><input type="password" name="password" value="" placeholder="Password"></p>
 						<p class="submit"><input type="submit" name="commit" value="Login"></p>
 					</form>		
+			
+					<!--Footer-->
+					<footer class="container-fluid bg-4 text-center".>
+						<p>BrainFlex created by Sarah Guiterrez and Madison Tully:
+						 2016</p>
+					</footer>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!--Footer-->
-	&nbsp;
-	<footer class="container-fluid bg-4 text-center".>
-		<p>BrainFlex created by Sarah Guiterrez and Madison Tully:
-		 2016</p>
-	</footer>
-	&nbsp;
 </body>
 </html>
