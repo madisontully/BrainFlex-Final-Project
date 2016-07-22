@@ -32,13 +32,16 @@
 }
 
 #welcome{
-	font-size: 115%;
+	font-size: 130%;
+	color: #fff7ff;
 }
 
 h1{
-	font-size: 300%
+	font-size: 300%;
+	/*color: #0000ff;*/
 }
 
 li{
 	margin-left: 5px;
+	/*color: #0000ff;*/
 }

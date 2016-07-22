@@ -37,6 +37,7 @@
 
 #welcome{
 	font-size: 300%;
+	color: #fff6ff;
 }
 
 h1{
@@ -49,23 +50,34 @@ li{
 
 .Sign_Log{
 	display: inline;
-	font-size: 14px
+	font-size: 20px
 }
 
 .SignUp{
-	border: 1px solid;
+	border: 0px solid;
 	float: left;
 	margin: 50px;
 	border-collapse: separate;
 	border-spacing: 200px;
 	align: center;
+	color: #fff9ff;
 }
 
 .Login{
-	border: 1px solid;
-	float: left;
+	border: 0px solid;
+	float: right;
 	margin: 50px;
 	border-collapse: separate;
 	border-spacing: 200px;
 	align: center;
+	color: #fff9ff;
+}
+
+.submit{
+	color: #41393f
+}
+
+.footer{
+	font-size: 80%;
+	color: #fff9ff;
 }
