@@ -1,33 +1,31 @@
+#page-wrap {
+	position: relative;
+	z-index: 2;
+	margin: 50px auto;
+	padding: 20px;
+}
+/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+
 #bg {
-  position: absolute; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
+	position: absolute; 
+	top: -50%; 
+	left: -50%; 
+	width: 200%; 
+	height: 200%;
 }
 
 #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 100%;
-  min-height: 100%;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	margin: auto; 
+	min-width: 100%;
+	min-height: 100%;
 } 
-
-#page-wrap {
-    position: relative;
-    z-index: 2;
-    margin: 50px auto;
-    padding: 20px;
-}
-
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-
 
 .navbar navbar-default{
 	background-color: rgb(204, 204, 204);
@@ -37,13 +35,25 @@
 	text-align: center;
 }
 
+#welcome{
+	font-size: 300%;
+}
+
+h1{
+	font-size: 300%
+}
+
+li{
+	margin-left: 5px;
+}
+
 .Sign_Log{
 	display: inline;
-  font-size: 20px
+	font-size: 14px
 }
 
 .SignUp{
-	border: 0px solid;
+	border: 1px solid;
 	float: left;
 	margin: 50px;
 	border-collapse: separate;
@@ -52,8 +62,10 @@
 }
 
 .Login{
-	border: 0px solid;
+	border: 1px solid;
 	float: left;
 	margin: 50px;
+	border-collapse: separate;
+	border-spacing: 200px;
 	align: center;
 }

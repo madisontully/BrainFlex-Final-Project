@@ -1,15 +1,15 @@
 #page-wrap{
 	position: relative;
 	z-index: 2;
-	
 	margin: 50px auto;
 	padding: 20px;
 }
+/* Preserve aspet ratio */
 	min-width: 100%;
 	min-height: 100%;
 
 #bg{
-	position: fixed;
+	position: absolute;
 	top: -50%;
 	left: -50%;
 	width: 200%;
@@ -27,15 +27,18 @@
 	min-height: 100%;
 }
 
-#welcome{
-font-size: 115%;
+.navbar navbar-default{
+	background-color: rgb(204, 204, 204);
 }
 
+#welcome{
+	font-size: 115%;
+}
 
 h1{
 	font-size: 300%
 }
 
 li{
-	margin-left: 1px;
+	margin-left: 5px;
 }
