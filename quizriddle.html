@@ -2,10 +2,43 @@
 <html>
 	<head>
 		<title>BrainFlex</title>
-		<link type='text/css' rel='stylesheet' href='stylesheet2.css'/>
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+		<!-- <link type='text/css' rel='stylesheet' href='stylesheet2.css'/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/> -->
+		<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<div id="bg">
+	  		<img src="images/cherry.jpg" alt="brain">
+		</div>
+			<!--.........Navbar.............-->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="homepageFP.html">BrainFlex</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="homepageFP.html">Login / SignUp</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="aboutFP.html">About</a></li>
+								<!-- ......Dropdown Menu...... -->
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle= "dropdown" href="#">Games<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="quizaboutu.html">About Me Review</a></li>
+						<li><a href="quizriddle.html">Riddle Quiz</a></li>
+						<li><a href="#">Memory Quiz</a></li>
+						<li><a href="quizanalogy.html">Analogy Quiz</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	
 		<div id='container'>
 			<div id='title'>
 				<h1>BrainFlex: Riddle Quiz</h1>

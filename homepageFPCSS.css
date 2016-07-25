@@ -64,11 +64,11 @@ li{
 }
 
 .Sign{
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 1px #391326;
 }
 
 .Lgin{
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 1px #391326;
 }
 
 .Login{
@@ -99,5 +99,5 @@ li{
 }
 
 #welcome{
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 1px #391326;
 }
