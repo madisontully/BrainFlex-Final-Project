@@ -21,11 +21,12 @@ h1 {
     width: 50px;
     padding-left:5px;
     padding-right: 5px;
-    position: relative;
+    padding-bottom: 10px;
     float:right;
     background-color: #DCDCDC;
     color: black;
     margin: 0 2px 0 2px;
+
 }
 
 .button.active {
@@ -38,12 +39,12 @@ button {
     float:right;
 }
 
-.button a {
+.button{
     text-decoration: none;
     color: black;
 }
 
-.navbar navbar-default{
+.navbar{
     background-color: rgb(204, 204, 204);
 }
 
