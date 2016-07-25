@@ -2,7 +2,7 @@
 	position: relative;
 	z-index: 2;
 	margin: 50px auto;
-	padding: 20px;
+	padding: 0px;
 }
 /* Preserve aspet ratio */
 	min-width: 100%;
@@ -32,23 +32,23 @@
 }
 
 #welcome{
-	font-size: 150%;
+	font-size: 140%;
 	color: #fff7ff;
 	
 }
 
 #paragraph{
-	-webkit-text-stroke: .75px black;
-	font-size: 115%;
+	-webkit-text-stroke: .25px black;
+	font-size: 110%;
 }
 
 h1{
 	font-size: 300%;
-	/*color: #0000ff;*/
-	-webkit-text-stroke: 1.5px black;
+	color: #0000ff;
+	-webkit-text-stroke: .75px black;
 }
 
 li{
 	margin-left: 5px;
-	/*color: #0000ff;*/
+	color: #0000ff;
 }
