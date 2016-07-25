@@ -63,6 +63,14 @@ li{
 	color: #fff9ff;
 }
 
+.Sign{
+	-webkit-text-stroke: 1px black;
+}
+
+.Lgin{
+	-webkit-text-stroke: 1px black;
+}
+
 .Login{
 	border: 0px solid;
 	float: right;
@@ -88,4 +96,8 @@ li{
 .footer{
 	font-size: 80%;
 	color: #fff9ff;
+}
+
+#welcome{
+	-webkit-text-stroke: 1px black;
 }
