@@ -74,7 +74,15 @@ li{
 }
 
 .submit{
-	color: #41393f
+	color: #41393f;
+}
+
+.typelogin{
+	color: #41393f;
+}
+
+.typesign{
+	color: #41393f;
 }
 
 .footer{
