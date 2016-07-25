@@ -33,6 +33,10 @@
 	background-color: rgb(204, 204, 204);
 }
 
+.welcome{
+font-size: 115%;
+}
+
 .container{
 	text-align: center;
 }
@@ -56,4 +60,8 @@
 	float: left;
 	margin: 50px;
 	align: center;
+}
+
+h1{
+  font-size: 300%
 }
