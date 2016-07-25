@@ -32,13 +32,20 @@
 }
 
 #welcome{
-	font-size: 130%;
+	font-size: 150%;
 	color: #fff7ff;
+	
+}
+
+#paragraph{
+	-webkit-text-stroke: .5px black;
+	font-size: 120%;
 }
 
 h1{
 	font-size: 300%;
 	/*color: #0000ff;*/
+	-webkit-text-stroke: 1.5px black;
 }
 
 li{
