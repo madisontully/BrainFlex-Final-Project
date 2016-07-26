@@ -36,68 +36,20 @@
 }
 
 #welcome{
-	font-size: 300%;
+	font-size: 450%;
 	color: #fff6ff;
+	-webkit-text-stroke: .75px #391326;
 }
 
-h1{
+/*h1{
 	font-size: 200%
-}
+}*/
 
 li{
 	margin-left: 5px;
 }
 
-.Sign_Log{
-	display: inline;
-	font-size: 20px
-}
-
-.SignUp{
-	border: 0px solid;
-	float: left;
-	margin: 50px;
-	border-collapse: separate;
-	border-spacing: 200px;
-	align: center;
-	color: #fff9ff;
-}
-
-.Sign{
-	-webkit-text-stroke: 1px #391326;
-}
-
-.Lgin{
-	-webkit-text-stroke: 1px #391326;
-}
-
-.Login{
-	border: 0px solid;
-	float: right;
-	margin: 50px;
-	border-collapse: separate;
-	border-spacing: 200px;
-	align: center;
-	color: #fff9ff;
-}
-
-.submit{
-	color: #41393f;
-}
-
-.typelogin{
-	color: #41393f;
-}
-
-.typesign{
-	color: #41393f;
-}
-
 .footer{
-	font-size: 81%;
-	color: #fff9ff;
-}
-
-#welcome{
-	-webkit-text-stroke: 1px #391326;
+	font-size: 90%;
+	color: #fff6ff;
 }

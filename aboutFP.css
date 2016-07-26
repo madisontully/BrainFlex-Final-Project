@@ -33,7 +33,7 @@
 
 #welcome{
 	font-size: 140%;
-	color: #fff7ff;
+	color: #fff6ff;
 	
 }
 
@@ -51,4 +51,9 @@ h1{
 li{
 	margin-left: 5px;
 	color: #0000ff;
+}
+
+.footer{
+	font-size: 90%;
+	color: #fff6ff;
 }
