@@ -37,7 +37,7 @@
 
 #welcome{
 	font-size: 500%;
-	color: #ffe6ff;
+	color: #fff9ff;
 	/*-webkit-text-stroke: 1px #391326;*/
 }
 
@@ -48,5 +48,5 @@ li{
 
 .footer{
 	font-size: 90%;
-	color: #fff9ff;
+	color: #ffe6ff;
 }
