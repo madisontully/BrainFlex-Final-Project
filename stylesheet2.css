@@ -83,7 +83,7 @@ button {
 	margin:auto;
 	padding: 20px;
 	/*background-image: url("images/cherry.jpg");*/
-	background-color: #7a527a;
+	background-color: #f9bf4b;
 	border:1px solid #B0E0E6;
 	border-radius:10px;
 	color: #FFFFFF;
@@ -105,8 +105,11 @@ ul {
     display:none;
     width: 90px;
 }
-footer {
-   clear: both;
+
+.footer {
+    font-size: 80%;
+	color: #fff9ff;
+	clear: both;
     position: relative;
     z-index: 10;
     height: 3em;
