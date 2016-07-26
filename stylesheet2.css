@@ -105,8 +105,11 @@ ul {
     display:none;
     width: 90px;
 }
-footer {
-   clear: both;
+
+.footer {
+    font-size: 80%;
+	color: #fff9ff;
+	clear: both;
     position: relative;
     z-index: 10;
     height: 3em;
