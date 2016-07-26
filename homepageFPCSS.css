@@ -41,6 +41,10 @@
 	-webkit-text-stroke: .75px #391326;
 }
 
+#brain{
+	size: small;
+}
+
 /*h1{
 	font-size: 200%
 }*/
