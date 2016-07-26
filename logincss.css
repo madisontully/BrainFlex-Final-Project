@@ -35,32 +35,19 @@
 	text-align: center;
 }
 
-#welcome{
-	font-size: 300%;
-	color: #fff6ff;
-}
-
-h1{
-	font-size: 200%
-}
-
 li{
 	margin-left: 5px;
 }
 
-.Sign_Log{
-	display: inline;
-	font-size: 20px
-}
-
 .Lgin{
 	/*-webkit-text-stroke: 1px #391326;*/
+	font-size: 40px;
 }
 
 .Login{
 	border: 0px solid;
 	float: center;
-	margin: 50px;
+	margin: 90px;
 	border-collapse: separate;
 	border-spacing: 200px;
 	align: center;
@@ -73,6 +60,7 @@ li{
 
 .typelogin{
 	color: #41393f;
+	font-size: 15px;
 }
 
 .footer{

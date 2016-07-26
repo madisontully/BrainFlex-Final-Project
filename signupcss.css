@@ -35,22 +35,8 @@
 	text-align: center;
 }
 
-#welcome{
-	font-size: 300%;
-	color: #fff6ff;
-}
-
-h1{
-	font-size: 200%
-}
-
 li{
 	margin-left: 5px;
-}
-
-.Sign_Log{
-	display: inline;
-	font-size: 20px
 }
 
 .SignUp{
@@ -65,6 +51,7 @@ li{
 
 .Sign{
 	/*-webkit-text-stroke: 1px #391326;*/
+	font-size: 40px;
 }
 
 .submit{
@@ -73,13 +60,10 @@ li{
 
 .typesign{
 	color: #41393f;
+	font-size: 15px;
 }
 
 .footer{
 	font-size: 81%;
 	color: #fff9ff;
-}
-
-#welcome{
-	/*-webkit-text-stroke: 1px #391326;*/
 }
