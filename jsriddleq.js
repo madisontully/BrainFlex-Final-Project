@@ -46,7 +46,7 @@
     choices: ["ear", "eye", "lip", "toe"],
     correctAnswer: 1
   }, {
-    question: "A murderer is condemned to death. They has to choose between three rooms. The first is full of raging fires, the second is full of assassins with loaded guns, and the third is full of lions that haven't eaten in 3 years. Which room is safest for them?",
+    question: "A murderer is condemned to death. They have to choose between three rooms. The first is full of raging fires, the second is full of assassins with loaded guns, and the third is full of lions that haven't eaten in 3 years. Which room is safest for them?",
     choices: ["The first room", "The second room", "The third room", "None"],
     correctAnswer: 2
   }, {
